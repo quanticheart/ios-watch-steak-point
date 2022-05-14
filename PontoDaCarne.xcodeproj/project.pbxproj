@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9C528E8282FD0F900C99F75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C528E7282FD0F900C99F75 /* AppDelegate.swift */; };
+		C9C528EA282FD0F900C99F75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C528E9282FD0F900C99F75 /* SceneDelegate.swift */; };
+		C9C528EC282FD0F900C99F75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C528EB282FD0F900C99F75 /* ViewController.swift */; };
+		C9C528EF282FD0F900C99F75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C528ED282FD0F900C99F75 /* Main.storyboard */; };
+		C9C528F1282FD10F00C99F75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C528F0282FD10F00C99F75 /* Assets.xcassets */; };
+		C9C528F4282FD10F00C99F75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C528F2282FD10F00C99F75 /* LaunchScreen.storyboard */; };
+		C9C528F9282FD10F00C99F75 /* PontoDaCarne WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C9C528F8282FD10F00C99F75 /* PontoDaCarne WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C9C528FF282FD11000C99F75 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C528FD282FD11000C99F75 /* Interface.storyboard */; };
+		C9C52901282FD11100C99F75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C52900282FD11100C99F75 /* Assets.xcassets */; };
+		C9C52907282FD11200C99F75 /* PontoDaCarne WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C9C52906282FD11200C99F75 /* PontoDaCarne WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C9C5290C282FD11200C99F75 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C5290B282FD11200C99F75 /* InterfaceController.swift */; };
+		C9C5290E282FD11200C99F75 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C5290D282FD11200C99F75 /* ExtensionDelegate.swift */; };
+		C9C52910282FD11200C99F75 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C5290F282FD11200C99F75 /* ComplicationController.swift */; };
+		C9C52912282FD11400C99F75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C52911282FD11400C99F75 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9C528FA282FD10F00C99F75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9C528DC282FD0F700C99F75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9C528F7282FD10F00C99F75;
+			remoteInfo = "PontoDaCarne WatchKit App";
+		};
+		C9C52908282FD11200C99F75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9C528DC282FD0F700C99F75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9C52905282FD11200C99F75;
+			remoteInfo = "PontoDaCarne WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C9C52919282FD11400C99F75 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C9C52907282FD11200C99F75 /* PontoDaCarne WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C5291D282FD11400C99F75 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C9C528F9282FD10F00C99F75 /* PontoDaCarne WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C9C528E4282FD0F900C99F75 /* PontoDaCarne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PontoDaCarne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C528E7282FD0F900C99F75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9C528E9282FD0F900C99F75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C9C528EB282FD0F900C99F75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9C528EE282FD0F900C99F75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9C528F0282FD10F00C99F75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9C528F3282FD10F00C99F75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9C528F5282FD10F00C99F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C528F8282FD10F00C99F75 /* PontoDaCarne WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PontoDaCarne WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C528FE282FD11000C99F75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C9C52900282FD11100C99F75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9C52906282FD11200C99F75 /* PontoDaCarne WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PontoDaCarne WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C5290B282FD11200C99F75 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C9C5290D282FD11200C99F75 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C9C5290F282FD11200C99F75 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		C9C52911282FD11400C99F75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9C52913282FD11400C99F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9C528E1282FD0F800C99F75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C52903282FD11200C99F75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9C528DB282FD0F700C99F75 = {
+			isa = PBXGroup;
+			children = (
+				C9C528E6282FD0F900C99F75 /* PontoDaCarne */,
+				C9C528FC282FD11000C99F75 /* PontoDaCarne WatchKit App */,
+				C9C5290A282FD11200C99F75 /* PontoDaCarne WatchKit Extension */,
+				C9C528E5282FD0F900C99F75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9C528E5282FD0F900C99F75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9C528E4282FD0F900C99F75 /* PontoDaCarne.app */,
+				C9C528F8282FD10F00C99F75 /* PontoDaCarne WatchKit App.app */,
+				C9C52906282FD11200C99F75 /* PontoDaCarne WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9C528E6282FD0F900C99F75 /* PontoDaCarne */ = {
+			isa = PBXGroup;
+			children = (
+				C9C528E7282FD0F900C99F75 /* AppDelegate.swift */,
+				C9C528E9282FD0F900C99F75 /* SceneDelegate.swift */,
+				C9C528EB282FD0F900C99F75 /* ViewController.swift */,
+				C9C528ED282FD0F900C99F75 /* Main.storyboard */,
+				C9C528F0282FD10F00C99F75 /* Assets.xcassets */,
+				C9C528F2282FD10F00C99F75 /* LaunchScreen.storyboard */,
+				C9C528F5282FD10F00C99F75 /* Info.plist */,
+			);
+			path = PontoDaCarne;
+			sourceTree = "<group>";
+		};
+		C9C528FC282FD11000C99F75 /* PontoDaCarne WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C9C528FD282FD11000C99F75 /* Interface.storyboard */,
+				C9C52900282FD11100C99F75 /* Assets.xcassets */,
+			);
+			path = "PontoDaCarne WatchKit App";
+			sourceTree = "<group>";
+		};
+		C9C5290A282FD11200C99F75 /* PontoDaCarne WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C9C5290B282FD11200C99F75 /* InterfaceController.swift */,
+				C9C5290D282FD11200C99F75 /* ExtensionDelegate.swift */,
+				C9C5290F282FD11200C99F75 /* ComplicationController.swift */,
+				C9C52911282FD11400C99F75 /* Assets.xcassets */,
+				C9C52913282FD11400C99F75 /* Info.plist */,
+			);
+			path = "PontoDaCarne WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9C528E3282FD0F800C99F75 /* PontoDaCarne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C5291E282FD11400C99F75 /* Build configuration list for PBXNativeTarget "PontoDaCarne" */;
+			buildPhases = (
+				C9C528E0282FD0F800C99F75 /* Sources */,
+				C9C528E1282FD0F800C99F75 /* Frameworks */,
+				C9C528E2282FD0F800C99F75 /* Resources */,
+				C9C5291D282FD11400C99F75 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9C528FB282FD10F00C99F75 /* PBXTargetDependency */,
+			);
+			name = PontoDaCarne;
+			productName = PontoDaCarne;
+			productReference = C9C528E4282FD0F900C99F75 /* PontoDaCarne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9C528F7282FD10F00C99F75 /* PontoDaCarne WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C5291A282FD11400C99F75 /* Build configuration list for PBXNativeTarget "PontoDaCarne WatchKit App" */;
+			buildPhases = (
+				C9C528F6282FD10F00C99F75 /* Resources */,
+				C9C52919282FD11400C99F75 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9C52909282FD11200C99F75 /* PBXTargetDependency */,
+			);
+			name = "PontoDaCarne WatchKit App";
+			productName = "PontoDaCarne WatchKit App";
+			productReference = C9C528F8282FD10F00C99F75 /* PontoDaCarne WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C9C52905282FD11200C99F75 /* PontoDaCarne WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C52916282FD11400C99F75 /* Build configuration list for PBXNativeTarget "PontoDaCarne WatchKit Extension" */;
+			buildPhases = (
+				C9C52902282FD11200C99F75 /* Sources */,
+				C9C52903282FD11200C99F75 /* Frameworks */,
+				C9C52904282FD11200C99F75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PontoDaCarne WatchKit Extension";
+			productName = "PontoDaCarne WatchKit Extension";
+			productReference = C9C52906282FD11200C99F75 /* PontoDaCarne WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9C528DC282FD0F700C99F75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					C9C528E3282FD0F800C99F75 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					C9C528F7282FD10F00C99F75 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					C9C52905282FD11200C99F75 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C9C528DF282FD0F700C99F75 /* Build configuration list for PBXProject "PontoDaCarne" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9C528DB282FD0F700C99F75;
+			productRefGroup = C9C528E5282FD0F900C99F75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9C528E3282FD0F800C99F75 /* PontoDaCarne */,
+				C9C528F7282FD10F00C99F75 /* PontoDaCarne WatchKit App */,
+				C9C52905282FD11200C99F75 /* PontoDaCarne WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9C528E2282FD0F800C99F75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C528F4282FD10F00C99F75 /* LaunchScreen.storyboard in Resources */,
+				C9C528F1282FD10F00C99F75 /* Assets.xcassets in Resources */,
+				C9C528EF282FD0F900C99F75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C528F6282FD10F00C99F75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C52901282FD11100C99F75 /* Assets.xcassets in Resources */,
+				C9C528FF282FD11000C99F75 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C52904282FD11200C99F75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C52912282FD11400C99F75 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9C528E0282FD0F800C99F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C528EC282FD0F900C99F75 /* ViewController.swift in Sources */,
+				C9C528E8282FD0F900C99F75 /* AppDelegate.swift in Sources */,
+				C9C528EA282FD0F900C99F75 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C52902282FD11200C99F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C5290E282FD11200C99F75 /* ExtensionDelegate.swift in Sources */,
+				C9C5290C282FD11200C99F75 /* InterfaceController.swift in Sources */,
+				C9C52910282FD11200C99F75 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9C528FB282FD10F00C99F75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9C528F7282FD10F00C99F75 /* PontoDaCarne WatchKit App */;
+			targetProxy = C9C528FA282FD10F00C99F75 /* PBXContainerItemProxy */;
+		};
+		C9C52909282FD11200C99F75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9C52905282FD11200C99F75 /* PontoDaCarne WatchKit Extension */;
+			targetProxy = C9C52908282FD11200C99F75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9C528ED282FD0F900C99F75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C528EE282FD0F900C99F75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9C528F2282FD10F00C99F75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C528F3282FD10F00C99F75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C9C528FD282FD11000C99F75 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C528FE282FD11000C99F75 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9C52914282FD11400C99F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9C52915282FD11400C99F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C9C52917282FD11400C99F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PontoDaCarne WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PontoDaCarne WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.quanticheart.PontoDaCarne.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		C9C52918282FD11400C99F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PontoDaCarne WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PontoDaCarne WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.quanticheart.PontoDaCarne.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		C9C5291B282FD11400C99F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = PontoDaCarne_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "PontoDaCarne WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = br.com.quanticheart.PontoDaCarne;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.quanticheart.PontoDaCarne.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		C9C5291C282FD11400C99F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = PontoDaCarne_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "PontoDaCarne WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = br.com.quanticheart.PontoDaCarne;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.quanticheart.PontoDaCarne.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		C9C5291F282FD11400C99F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PontoDaCarne/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.quanticheart.PontoDaCarne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9C52920282FD11400C99F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PontoDaCarne/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.quanticheart.PontoDaCarne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9C528DF282FD0F700C99F75 /* Build configuration list for PBXProject "PontoDaCarne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C52914282FD11400C99F75 /* Debug */,
+				C9C52915282FD11400C99F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C52916282FD11400C99F75 /* Build configuration list for PBXNativeTarget "PontoDaCarne WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C52917282FD11400C99F75 /* Debug */,
+				C9C52918282FD11400C99F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C5291A282FD11400C99F75 /* Build configuration list for PBXNativeTarget "PontoDaCarne WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C5291B282FD11400C99F75 /* Debug */,
+				C9C5291C282FD11400C99F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C5291E282FD11400C99F75 /* Build configuration list for PBXNativeTarget "PontoDaCarne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C5291F282FD11400C99F75 /* Debug */,
+				C9C52920282FD11400C99F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9C528DC282FD0F700C99F75 /* Project object */;
+}
