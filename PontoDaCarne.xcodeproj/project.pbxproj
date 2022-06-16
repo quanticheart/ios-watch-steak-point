@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C904C5B8282FE51600CAAFAF /* MeatTemperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = C904C5B7282FE51600CAAFAF /* MeatTemperature.swift */; };
 		C9C528E8282FD0F900C99F75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C528E7282FD0F900C99F75 /* AppDelegate.swift */; };
 		C9C528EA282FD0F900C99F75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C528E9282FD0F900C99F75 /* SceneDelegate.swift */; };
 		C9C528EC282FD0F900C99F75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C528EB282FD0F900C99F75 /* ViewController.swift */; };
@@ -66,6 +67,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C904C5B7282FE51600CAAFAF /* MeatTemperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeatTemperature.swift; sourceTree = "<group>"; };
 		C9C528E4282FD0F900C99F75 /* PontoDaCarne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PontoDaCarne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C528E7282FD0F900C99F75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9C528E9282FD0F900C99F75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		C9C5290F282FD11200C99F75 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		C9C52911282FD11400C99F75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9C52913282FD11400C99F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F03706285BDC070063B355 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,7 @@
 		C9C528DB282FD0F700C99F75 = {
 			isa = PBXGroup;
 			children = (
+				C9F03706285BDC070063B355 /* README.md */,
 				C9C528E6282FD0F900C99F75 /* PontoDaCarne */,
 				C9C528FC282FD11000C99F75 /* PontoDaCarne WatchKit App */,
 				C9C5290A282FD11200C99F75 /* PontoDaCarne WatchKit Extension */,
@@ -154,6 +158,7 @@
 				C9C5290F282FD11200C99F75 /* ComplicationController.swift */,
 				C9C52911282FD11400C99F75 /* Assets.xcassets */,
 				C9C52913282FD11400C99F75 /* Info.plist */,
+				C904C5B7282FE51600CAAFAF /* MeatTemperature.swift */,
 			);
 			path = "PontoDaCarne WatchKit Extension";
 			sourceTree = "<group>";
@@ -301,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9C5290E282FD11200C99F75 /* ExtensionDelegate.swift in Sources */,
+				C904C5B8282FE51600CAAFAF /* MeatTemperature.swift in Sources */,
 				C9C5290C282FD11200C99F75 /* InterfaceController.swift in Sources */,
 				C9C52910282FD11200C99F75 /* ComplicationController.swift in Sources */,
 			);
